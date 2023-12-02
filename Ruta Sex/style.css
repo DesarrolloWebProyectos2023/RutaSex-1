@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+body {
+    min-width: fit-content;
+}
+
+header {
+    display: block;
+    background-size: 100vw;
+    max-width: 100vw;
+}
+.logo_header {
+    height: 35px;
+    margin: 2.3px 0 2.7px 7px;
+    display: inline;
+}
+
+.div_header {
+    background-color: #f3e2ef;
+}
+
+.btn {
+    position: relative;
+    left: 40.67px;
+    background-color: #ffffff;
+}
+
+.form-control:focus {
+    background: linear-gradient(transparent, rgb(195, 195, 195));
+}
+
+.h1_header {
+    text-align: center;
+    color: rgb(20, 17, 17);
+    padding: 10px;
+}
+
+.span_educacion {
+    color: rgb(128, 18, 18);
+}
+
+.span_sexual {
+    color: rgb(0, 128, 0);
+}
+
+.span_integral {
+    color: rgb(142, 31, 142);
+}
+
+.p_header {
+    display: inline-block;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    max-width: 80vw;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+
+main {
+    background-color: rgb(221, 32, 89);
+    max-width: 100vw;
+}
+
+.temas {
+    padding: 30px 0;
+    background-color: rgb(216, 165, 201)
+}
+.ul_section_temas_1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.ul_section_temas_2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.li_ul_section_temas {
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    height: 50px;
+    display: flex;
+    border: rgb(190, 255, 229) solid 2px;
+    border-radius: 20px;
+    box-shadow: 2.5px 2.5px 10px rgb(0, 0, 0);
+}
+
+.a_section_temas {
+    display: flex;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.a_section_temas:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+article h3 {
+    font-size: 25px;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+article .p_main{
+    font-size: 15px;
+    padding: 0 1vw;
+    text-align: center;
+    margin-bottom: 10px;
+}
+img {
+    width: 150px;
+    height: 230px;
+}
+.div_img {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    flex-wrap: wrap;
+}
+.section_card {
+    background-color: rgb(255, 255, 255);
+    margin: 30px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    transition: 1s;
+    width: 45%;
+}
+
+.section_card:hover {
+    transform: scale(1.1) !important;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div_img_cuidados-anticonceptivos_1 div {
+    width: 200px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.section_cuidados-anticonceptivos_1:hover, .section_cuidados-anticonceptivos_2:hover{ 
+    transform: scale(1.05) !important; 
+}
+
+.div_img_cuidados-anticonceptivos_2 div {
+    width: 200px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.section_protectores-menstruacion {
+    height: fit-content;
+    width: 50%;
+}
+
+
+
+main img {
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgb(221, 32, 89);
+    max-width: 100vw;
+}
+.section_footer{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+footer section h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ul_footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul_footer li{
+    list-style: none;
+}
+
+.ul_footer li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.ul_footer li a:hover {
+    color: #5b5b5b;
+}
+
+.p_pastillas-emergencias {
+    overflow: auto;
+    height: 110px
+}
+
+@media (max-width: 1200px) {
+    .ul_section_temas {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .li_ul_section_temas {
+        margin-bottom: 15px;
+    }
+
+    .section_card {
+        width: 80%;
+    }
+
+    .ul_footer {
+        flex-wrap: wrap;
+    }
+
+    .ul_footer li {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    .ul_footer {
+        flex-direction: column;
+    }
+
+    .ul_footer li {
+        margin: 10px 0;
+    }
+}
+
+
